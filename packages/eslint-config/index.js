@@ -38,7 +38,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-empty-function': 'off',
-    '@typescript-eslint/ban-ts-comment': 'allow-with-description',
+    '@typescript-eslint/ban-ts-comment': 'warn',
     '@typescript-eslint/unbound-method': 'off',
     '@typescript-eslint/indent': ['warn', 2],
     eqeqeq: 'error',
@@ -79,4 +79,3 @@ module.exports = {
     'multiline-ternary': ['warn', 'always-multiline'],
   },
 }
-
