@@ -19,6 +19,9 @@ module.exports = {
       version: 'detect',
     },
   },
+  parserOptions: {
+    project: './tsconfig.json',
+  },
   plugins: ['react', '@typescript-eslint', 'react-hooks', 'prettier'],
   extends: [
     'eslint:recommended',
