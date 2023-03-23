@@ -1,0 +1,21 @@
+{
+  "name": "@geril2207/prettier-config",
+  "version": "0.0.1",
+  "description": "Prettier Config",
+  "main": "./.prettierrc.json",
+  "prettier": "./.prettierrc.json",
+  "files": [
+    ".prettierignore",
+    ".prettierrc.json",
+    "package.json"
+  ],
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "Geril",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": "^2.8.5"
+  }
+}
