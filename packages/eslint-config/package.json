@@ -5,8 +5,7 @@
   "main": "index.js",
   "files": [
     "package.json",
-    "index.js",
-    ".eslintignore"
+    "index.js"
   ],
   "keywords": [],
   "author": "",
