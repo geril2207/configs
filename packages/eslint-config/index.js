@@ -14,10 +14,6 @@ module.exports = {
     "*.config.js",
     ".eslintrc.*",
   ],
-  parserOptions: {
-    project: "./tsconfig.json",
-    tsconfigRootDir: __dirname,
-  },
   plugins: ["@typescript-eslint", "prettier"],
   extends: [
     "eslint:recommended",
